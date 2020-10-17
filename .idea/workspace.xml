@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108c3173-df8e-4f30-b0f2-3c4ff3d65590" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/scss/general.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/blacklist/manage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/callcenter/manage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/polls/manage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/users/manage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
@@ -42,6 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1j0Cv58jcvnwqYmrrGbbHzLoSMW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -82,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602931850868</updated>
-      <workItem from="1602931852362" duration="4309000" />
+      <workItem from="1602931852362" duration="7811000" />
     </task>
     <servers />
   </component>
@@ -101,21 +111,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1602940907821">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1602943709510">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602940907821" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1602940907820">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709510" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1602943709509">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602940907820" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1602940907820">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709509" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1602943709508">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602940907820" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1602940907821">
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709508" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1602943709509">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602940907821" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709509" />
   </component>
 </project>
