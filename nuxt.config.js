@@ -2,6 +2,8 @@ module.exports = {
   /*
   ** Headers of the page
   */
+  mode: 'universal',
+  target: 'server',
   head: {
     title: 'skillline-test',
     meta: [
@@ -13,10 +15,18 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  modules: [
+    'bootstrap-vue/nuxt',
+  ],
   /*
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  bootstrapVue: {
+    icons: true,
+    bootstrapCSS: false,
+    bootstrapVueCSS: false,
+  },
   /*
   ** Build configuration
   */

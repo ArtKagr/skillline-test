@@ -5,6 +5,7 @@
       <h1 class="title">
         skillline-test
       </h1>
+      <b-icon-plus-circle></b-icon-plus-circle>
       <h2 class="subtitle">
         Nuxt.js project
       </h2>
