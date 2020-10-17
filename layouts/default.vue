@@ -1,7 +1,10 @@
 <template>
-  <div class="d-flex overflow-hidden">
-    <Header class="header"/>
-    <nuxt/>
+  <div class="d-flex vh-100 vw-100 overflow-hidden">
+      <Header class="header w-10"/>
+      <div class="d-flex flex-column w-90">
+        <Search class="w-100 align-self-start"/>
+        <nuxt class="align-self-stretch w-100 h-100 overflow-hidden"/>
+      </div>
   </div>
 </template>
 
@@ -11,7 +14,8 @@
 
 <script>
 import Header from "../components/Header";
+import Search from "../components/Search";
 export default {
-  components: {Header}
+  components: {Search, Header}
 }
 </script>

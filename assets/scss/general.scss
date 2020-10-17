@@ -44,6 +44,38 @@ html {
 }
 
 .header {
-  width: 10%;
-  min-height: 100vh;
+  border-right: 1px solid lightgray;
+}
+.user {
+  width: 15%;
+  display: flex;
+  align-items: center;
+
+  &-avatar {
+    font-size: 40px;
+    margin-right: 8px;
+  }
+
+  &-data {
+    display: flex;
+    flex-direction: column;
+
+    &-name {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    &-role {
+      font-size: 13px;
+    }
+  }
+}
+
+.custom_icon {
+  &-header {
+    font-size: 40px !important;
+  }
+  &-arrow {
+    font-size: 12px;
+  }
 }

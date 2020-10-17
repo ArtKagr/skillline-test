@@ -20,18 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108c3173-df8e-4f30-b0f2-3c4ff3d65590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/scss/general.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/blacklist/manage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/callcenter/manage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/polls/manage.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/users/manage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Navigation.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/polls/parameters.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/polls/questions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/dictionaries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/polls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/general.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Search.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blacklist/manage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blacklist/manage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/callcenter/manage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/callcenter/manage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/polls/manage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/polls/manage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/manage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/users/manage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -59,13 +63,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RS/instudio-frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\skillline-test\pages\polls" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -92,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602931850868</updated>
-      <workItem from="1602931852362" duration="7811000" />
+      <workItem from="1602931852362" duration="18131000" />
     </task>
     <servers />
   </component>
@@ -111,21 +120,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1602943709510">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1602949780630">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709510" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1602943709509">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949780630" />
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1602949108450">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709509" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1602943709508">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108450" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1602949108449">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709508" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1602943709509">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108449" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1602949108449">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602943709509" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108448" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1602949108449">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108449" />
   </component>
 </project>
