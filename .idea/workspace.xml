@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108c3173-df8e-4f30-b0f2-3c4ff3d65590" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scss/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +94,7 @@
       <workItem from="1602931852362" duration="35966000" />
       <workItem from="1603013318928" duration="16210000" />
       <workItem from="1603034671676" duration="50000" />
+      <workItem from="1603035208022" duration="203000" />
     </task>
     <servers />
   </component>

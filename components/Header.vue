@@ -16,7 +16,7 @@
             <b-icon-person v-else-if="link.page === 'users'" class="m-0 custom_icon-header"></b-icon-person>
             <b-icon-flag v-else-if="link.page === 'blacklist'" class="m-0 custom_icon-header"></b-icon-flag>
             <b-icon-telephone v-else-if="link.page === 'callcenter'" class="m-0 custom_icon-header"></b-icon-telephone>
-            <span class="mt-1">{{ link.title }}</span>
+            <span class="mt-1 menu_title">{{ link.title }}</span>
           </div>
         </b-nav-item>
       </b-navbar-nav>
