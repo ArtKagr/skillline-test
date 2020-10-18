@@ -1,7 +1,7 @@
 <template>
   <div class=" m-4 w-100 h-100">
     <div class="font-weight-bold h-5">Добавить опрос</div>
-    <div class="d-flex flex-column flex-fill px-4 w-100 h-70">
+    <div class="d-flex flex-column flex-fill px-4 w-100 h-60">
       <div class="overflow-auto h-80 flex-fill align-self-stretch">
         <div class="pb-4 w-100 overflow-auto" v-for="(term, key) in currentTerms" :key="key">
           <div class="d-flex flex-column w-100">
