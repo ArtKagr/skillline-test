@@ -17,7 +17,13 @@ module.exports = {
   },
   modules: [
     'bootstrap-vue/nuxt',
+    '@nuxtjs/axios',
   ],
+  axios: {
+    // prefix: '/api/',
+    credentials: true,
+    baseURL: process.env.API_URL || 'https://api-test.skillline.ru/',
+  },
   /*
   ** Customize the progress bar color
   */

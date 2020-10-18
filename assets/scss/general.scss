@@ -101,3 +101,19 @@ html {
     font-size: 20px !important;
   }
 }
+
+.custom_button {
+  cursor: pointer;
+  color: #343a40;
+
+  &:hover {
+    text-decoration: none;
+    color: #343a40;
+  }
+
+  &:focus {
+    text-decoration: none;
+    box-shadow: none;
+    outline: none;
+  }
+}

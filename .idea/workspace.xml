@@ -20,15 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="108c3173-df8e-4f30-b0f2-3c4ff3d65590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/polls/logic.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/polls/respondents.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/polls/terms.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/skillline-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/scss/general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scss/general.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navigation.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/polls/manage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/polls/manage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/polls/parameters.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/polls/parameters.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/polls/questions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/polls/questions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/polls/respondents.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/polls/respondents.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/polls.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/polls.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../RS/instudio-frontend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -67,6 +70,9 @@
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\Desktop\skillline-test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1\Desktop\skillline-test\pages\polls" />
     </key>
@@ -96,7 +102,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602931850868</updated>
-      <workItem from="1602931852362" duration="35874000" />
+      <workItem from="1602931852362" duration="35966000" />
+      <workItem from="1603013318928" duration="15796000" />
     </task>
     <servers />
   </component>
@@ -113,31 +120,36 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1602949780630">
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1603016988794">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949780630" />
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1602949108450">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1603016988794" />
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom" timestamp="1603026216948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108450" />
-    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1602949108449">
+    <state width="1579" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1603026216948" />
+    <state width="1579" height="222" key="GridCell.Tab.0.center" timestamp="1603026216948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108449" />
-    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1602949108449">
+    <state width="1579" height="222" key="GridCell.Tab.0.center/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1603026216948" />
+    <state width="1579" height="222" key="GridCell.Tab.0.left" timestamp="1603026216948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108448" />
-    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1602949108449">
+    <state width="1579" height="222" key="GridCell.Tab.0.left/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1603026216948" />
+    <state width="1579" height="222" key="GridCell.Tab.0.right" timestamp="1603026216948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602949108449" />
-    <state x="507" y="163" width="585" height="534" key="find.popup" timestamp="1602970052314">
+    <state width="1579" height="222" key="GridCell.Tab.0.right/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1603026216948" />
+    <state x="507" y="163" width="585" height="534" key="find.popup" timestamp="1603030388467">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="507" y="163" width="585" height="534" key="find.popup/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1602970052314" />
+    <state x="507" y="163" width="585" height="534" key="find.popup/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1603030388467" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1603028785809">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860/-1920.-103.1920.1040@0.0.1600.860" timestamp="1603028785809" />
   </component>
 </project>
