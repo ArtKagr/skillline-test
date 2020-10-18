@@ -2,7 +2,7 @@ module.exports = {
   /*
   ** Headers of the page
   */
-  mode: 'spa',
+  mode: 'universal',
   target: 'server',
   head: {
     title: 'skillline-test',
