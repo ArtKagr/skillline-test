@@ -1,11 +1,11 @@
 <template>
-<div class="m-4">
-  polls-parameters
-</div>
+  <div class="m-4">
+    Параметры
+  </div>
 </template>
 
 <script>
 export default {
-name: "PollsParameters"
+  name: "PollsParameters"
 }
 </script>

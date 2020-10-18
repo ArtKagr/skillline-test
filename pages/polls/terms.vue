@@ -1,11 +1,11 @@
 <template>
   <div class="m-4">
-    Вопросы
+    Условия
   </div>
 </template>
 
 <script>
 export default {
-  name: "PollsQuestions"
+  name: "PollsTerms"
 }
 </script>
